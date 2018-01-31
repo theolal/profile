@@ -1,0 +1,88 @@
+.section {
+  background: #f7f7f7;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  width: 1000px;
+  margin: 20 auto;
+  padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0e273c;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #697e88;
+}
+
+a {
+  color: #394e5f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px;
+  background: #702632;
+  border-radius: 10px;
+  color: #d8d8d8;
+  text-decoration: none;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px #d8d8d8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 15px;
+  color: #233a4d;
+}
+
+#social_network{
+  text-align: center;
+}
+
+#about_me img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#about_me {
+  text-align: center;
+  /*background-image: url("http://4.bp.blogspot.com/-nTRND5vt0bM/VZaHfIZRKxI/AAAAAAAAKXc/5TXO7s9xJAs/s1600/Windows-10-desktop-wallpaper-hd-09.jpg")*/
+}
+
+#movie_list p {
+  text-align: justify;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .section {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .section {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .section {
+    width: 300px;
+  }
+}
