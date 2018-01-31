@@ -1,10 +1,15 @@
+body {
+  background-color: #a1aeb4;
+}
+
 .section {
   background: #f7f7f7;                          /* White background */
   padding: 30px;                              /* Internal space */
   border-radius: 4px;                         /* Small radius */
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
-  width: 1000px;
+  width: 90%;
+  min-width: 100px;
   margin: 20 auto;
   padding: 30px;
 }
@@ -54,8 +59,8 @@ button {
 
 #about_me img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -67,28 +72,9 @@ button {
   text-align: justify;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .section {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .section {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .section {
-    width: 300px;
-  }
-}
-
 #sidebar {
   position: fixed;
-  width: 200px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -102,7 +88,7 @@ button {
 
 #sidebar li {
   list-style: none;
-  font-size: 70px;
+  font-size: 30px;
   padding: 30px;
 }
 
@@ -112,5 +98,9 @@ button {
 }
 
 #site-content {
-  margin-left: 200px;
+  margin-left: 100px;
 }
+
+
+
+/*RESPONSIVE OPTIONS*/
