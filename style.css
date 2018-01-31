@@ -2,6 +2,29 @@ body {
   background-color: #a1aeb4;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0e273c;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #697e88;
+}
+
+a {
+  color: #394e5f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b93129;
+}
+
+#site-content {
+  margin-left: 100px;
+}
+
 .section {
   background: #f7f7f7;                          /* White background */
   padding: 30px;                              /* Internal space */
@@ -14,36 +37,20 @@ body {
   padding: 30px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  color: #0e273c;
-}
-
-p {
-  font-family: 'Raleway', sans-serif;
-  color: #697e88;
-}
-
-#social_network a {
-  color: #394e5f;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 button {
   padding: 10px;
-  background: #702632;
+  background: #b93129;
   border-radius: 10px;
-  color: #d8d8d8;
+  color: #fbf7eb;
   text-decoration: none;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 3px #d8d8d8;
   font-family: 'Montserrat', sans-serif;
 }
 
+#social_network{
+  text-align: center;
+}
 
 #social_network li {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -53,7 +60,7 @@ button {
   color: #233a4d;
 }
 
-#social_network{
+#about_me {
   text-align: center;
 }
 
@@ -62,10 +69,6 @@ button {
   width: 200px;
   height: 200px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-}
-
-#about_me {
-  text-align: center;
 }
 
 #movie_list p {
@@ -84,23 +87,26 @@ button {
 
 #sidebar a {
   color: #d8d8d8;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#sidebar a:hover {
+  color: #b93129;
+  text-decoration: none;
 }
 
 #sidebar li {
   list-style: none;
-  font-size: 30px;
-  padding: 30px;
+  padding-bottom: 35px;
+}
+
+#sidebar i {
+  font-size: 25px;
 }
 
 .sidebar-icon {
   /*text-align: center;*/
-  padding: 0;
+  padding: 0px;
 }
-
-#site-content {
-  margin-left: 100px;
-}
-
-
-
-/*RESPONSIVE OPTIONS*/
