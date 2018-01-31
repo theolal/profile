@@ -94,15 +94,15 @@ li {
   top: 0;
   bottom: 0;
   background: #233a4d;
+}
+
+#sidebar a {
   color: white;
   font-size: 100px;
   text-align: center
   font-weight: 450;
 }
 
-/*#sidebar ul {
-}
-*/
 #page-content {
   margin-left: 200px;
 }
