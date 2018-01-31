@@ -96,8 +96,12 @@ li {
   background: #233a4d;
 }
 
-#sidebar li {
+#sidebar ul {
   color: #788188;
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
 }
 
 #page-content {
