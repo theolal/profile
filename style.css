@@ -103,7 +103,8 @@ li {
   list-style-image: none;
   list-style-position: outside;
   font-size: 40px;
-  display: inline
+  text-align: center
+  font-weight: 450;
 }
 
 #page-content {
