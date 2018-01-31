@@ -95,6 +95,11 @@ li {
   bottom: 0;
   background: #233a4d;
 }
+
+#sidebar li {
+  color: #788188;
+}
+
 #page-content {
   margin-left: 200px;
 }
