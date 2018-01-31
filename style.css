@@ -40,7 +40,7 @@ button {
 }
 
 
-li {
+#social_network li {
   font-family: 'Open Sans Condensed', sans-serif;
   display: inline-block;
   font-size: 20px;
@@ -101,6 +101,8 @@ li {
   font-size: 35px;
   text-align: center;
   font-weight: 450px;
+  padding: 30px;
+  margin: 10px;
 }
 
 #page-content {
