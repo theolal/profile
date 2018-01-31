@@ -61,7 +61,6 @@ button {
 
 #about_me {
   text-align: center;
-  /*background-image: url("http://4.bp.blogspot.com/-nTRND5vt0bM/VZaHfIZRKxI/AAAAAAAAKXc/5TXO7s9xJAs/s1600/Windows-10-desktop-wallpaper-hd-09.jpg")*/
 }
 
 #movie_list p {
@@ -94,17 +93,24 @@ button {
   top: 0;
   bottom: 0;
   background: #233a4d;
+  text-align: center;
 }
 
 #sidebar a {
-  color: white;
-  font-size: 35px;
-  text-align: center;
-  font-weight: 450px;
-  padding: 30px;
-  margin: 10px;
+  color: #d8d8d8;
 }
 
-#page-content {
+#sidebar li {
+  list-style: none;
+  font-size: 70px;
+  padding: 30px;
+}
+
+.sidebar-icon {
+  /*text-align: center;*/
+  padding: 0;
+}
+
+#site-content {
   margin-left: 200px;
 }
