@@ -102,6 +102,8 @@ li {
   list-style-type: none;
   list-style-image: none;
   list-style-position: outside;
+  font-size: 40px;
+  display: inline
 }
 
 #page-content {
